@@ -3,99 +3,99 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Exam Landing Page</title>
+    <title>Karamraji Institute of Computer Science & IT</title>
+    <link rel="stylesheet" href="styles.css">
     <style>
         body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            background-color: #f4f4f4;
-        }
-        header {
-            background-color: #4CAF50;
-            color: white;
-            padding: 20px;
-            text-align: center;
-            width: 100%;
-        }
-        img.logo {
-            width: 100px;
-            height: auto;
-            margin-bottom: 10px;
-        }
-        .container {
-            max-width: 800px;
-            background-color: white;
-            padding: 20px;
-            border-radius: 8px;
-            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-            margin: 20px;
-        }
-        .instructions {
-            margin: 20px 0;
-            padding: 10px;
-            border: 1px solid #ddd;
-            border-radius: 5px;
+            font-family: Verdana, sans-serif;
             background-color: #f9f9f9;
+            margin: 0;
+            padding: 20px;
         }
-        .instructions img {
-            max-width: 100%;
-            height: auto;
-            border-radius: 5px;
+        .card-container {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
         }
-        .button-container {
+        .card {
+            background-color: #f9f9f9;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            padding: 20px;
+            width: 200px;
             text-align: center;
-            margin-top: 20px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
         }
-        .go-button {
-            background-color: #4CAF50;
-            color: white;
-            padding: 10px 20px;
+        button {
+            background-color: red;
             border: none;
             border-radius: 5px;
+            color: white;
+            padding: 10px 15px;
             cursor: pointer;
-            text-decoration: none;
+            font-size: 16px;
         }
-        .go-button:hover {
-            background-color: #45a049;
-        }
-        @media (max-width: 600px) {
-            .container {
-                margin: 10px;
-                padding: 15px;
-            }
-            img.logo {
-                width: 80px;
-            }
+        button:hover {
+            background-color: lightblue;
         }
     </style>
 </head>
 <body>
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="img.jpg" alt="Logo">
+            </div>
+        </nav>
+    </header>
 
-<header>
-    <img src="logo.jpg" alt="Institute Logo" class="logo">
-    <h1>Karamraji institute of Computer Science & IT</h1>
-</header>
+    <main>
+        <section>
+            <center><img src="fff.png" alt="Banner"></center>
+            <center><h1>Assessment Exam O-level</h1></center>
+            <p>
+                <center><b><h2 style="background-color:powderblue; color:Tomato;">PLEASE READ THE BELOW INSTRUCTION CAREFULLY</h2></b></center>
+            </p>
+            <ul>
+                <li>Fill The Login ID and Password correctly in The Provided Area</li>
+                <li>On the candidate details fill your personal details</li>
+                <li>Total Test Duration of Examination for Assessment Examination is 1 Hour</li>
+                <li>Each Question carries equal weightage that is 1 Mark is allotted to each question</li>
+                <li>There is no negative Marking for Assessment Examination. There will be negative marking of .025 mark for each wrong answer for PRE-NIELIT Examination</li>
+                <li>The clock will be set at the server. The countdown timer on the screen will display the remaining Time available. When the timer reaches Zero, the examination will end by itself; in this case, you will not be required to end or submit your examination.</li>
+            </ul>
 
-<div class="container">
-    <h2>Exam Instructions</h2>
-    <div class="instructions">
-        <p>Please read the following instructions carefully before the exam:</p>
-        <ul>
-            <li>Arrive at the exam center at least 30 minutes early.</li>
-            <li>Bring a valid ID and all required materials.</li>
-            <li>Follow all instructions provided by the invigilators.</li>
-        </ul>
-        <img src="exam-image.jpg" alt="Exam Preparation" />
-    </div>
-    
-    <div class="button-container">
-        <a href="https://www.example.com" class="go-button">Go to Exam Page</a>
-    </div>
-</div>
+            <div class="card-container">
+                <div class="card">
+                    <h3>ITN ( M1-R5 )</h3>
+                    <a href="https://docs.google.com/forms/d/e/1FAIpQLScUR_71Wd_mXKBYtr5HJHrUPmR6jV-W0_I3iXxxq33lWF89hQ/closedform">
+                        <button>Click here</button>
+                    </a>
+                </div>
+                <div class="card">
+                    <h3>WDP ( M2-R5 )</h3>
+                    <a href="https://docs.google.com/forms/d/e/1FAIpQLSdZ-hei2URaL6vgcoOroGcOq5O9DrcJw8AePgG_NItDkTm4KQ/closedform">
+                        <button>Click here</button>
+                    </a>
+                </div>
+                <div class="card">
+                    <h3>Python ( M3-R5 )</h3>
+                    <a href="https://docs.google.com/forms/d/e/1FAIpQLSf7w6fxz0H3ROhBjSro_MiX03sDYu2hhS7WAFmhhm32tUXj1g/closedform">
+                        <button>Click here</button>
+                    </a>
+                </div>
+                <div class="card">
+                    <h3>IoT ( M4-R5 )</h3>
+                    <a href="https://docs.google.com/forms/d/e/1FAIpQLSctzXPVooM5eYcwV_DZWIxhTP8_V5d2YFfHwMXi5JQ9XYy0Dw/closedform">
+                        <button>Click here</button>
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
 
+    <footer>
+        <p>&copy; KICS-EXAM</p>
+    </footer>
 </body>
 </html>
