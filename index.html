@@ -58,40 +58,41 @@
             display: flex;
             flex-wrap: wrap; /* Allow wrapping */
             justify-content: center; /* Center-align cards */
-            gap: 20px; /* Space between cards */
+            gap: 30px; /* Space between cards */
             margin: 20px 0;
         }
 
         .card {
             background-color: #f9f9f9;
-            border: 1px solid #ddd;
-            border-radius: 8px;
-            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-            padding: 20px;
-            width: 250px; /* Fixed width for consistency */
-            flex-shrink: 0; /* Prevent shrinking */
-            text-align: center; /* Center content inside cards */
-            transition: transform 0.2s, box-shadow 0.2s;
+            border: 2px solid #ddd;
+            border-radius: 12px;
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+            padding: 30px;
+            width: 350px; /* Increased width for bigger cards */
+            height: 200px; /* Increased height for consistent size */
+            flex-shrink: 0;
+            text-align: center;
+            transition: transform 0.3s, box-shadow 0.3s;
         }
 
         .card:hover {
-            transform: translateY(-5px);
-            box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+            transform: translateY(-10px);
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
         }
 
         .card h3 {
-            font-size: 1.2rem;
+            font-size: 1.5rem; /* Larger font for card titles */
             color: #333;
-            margin-bottom: 15px;
+            margin-bottom: 20px;
         }
 
         .card button {
             background-color: #007BFF;
             color: white;
             border: none;
-            border-radius: 4px;
-            padding: 10px 15px;
-            font-size: 1rem;
+            border-radius: 6px;
+            padding: 15px 20px;
+            font-size: 1.1rem;
             cursor: pointer;
             transition: background-color 0.3s;
         }
